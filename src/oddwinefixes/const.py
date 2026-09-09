@@ -7,7 +7,7 @@ DESCRIPTION = "A PE Analyser and Wine/Proton missing dependency/font fixer"
 VERSION = "0.0.1"
 AUTHOR = "TheOddPirate"
 LICENSE = "LGPL-2.1-or-later"
-DEBUG = True
+DEBUG = False
 
 KNOWN_OS_LIBS = {
     # System & Core
