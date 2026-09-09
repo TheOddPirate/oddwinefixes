@@ -1,0 +1,18 @@
+pkgbase = oddwinefixes-git
+	pkgdesc = A PE Analyser and Wine/Proton missing dependency/font fixer
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/TheOddPirate/oddwinefixes
+	arch = any
+	license = LGPL-2.1-or-later
+	makedepends = git
+	makedepends = uv
+	makedepends = python-installer
+	depends = python
+	depends = python-pefile
+	provides = oddwinefixes
+	conflicts = oddwinefixes
+	source = git+https://github.com/TheOddPirate/oddwinefixes.git
+	sha256sums = SKIP
+
+pkgname = oddwinefixes-git
