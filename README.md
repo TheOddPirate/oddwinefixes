@@ -43,7 +43,7 @@ cd oddwinefixes
 ### 2. Run with `uv` (Recommended)
 
 ```bash
-uv run oddwinewfixes #Creates virtual env, builds and Runs the script
+uv run oddwinefixes #Creates virtual env, builds and Runs the script
 
 ```
 
