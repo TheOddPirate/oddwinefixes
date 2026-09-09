@@ -43,8 +43,11 @@ cd oddwinefixes
 ### 2. Run with `uv` (Recommended)
 
 ```bash
-cd src/oddwinefixes
-uv run main.py
+uv venv .venv #This creates a virtual env for our dependencies
+source .venv/bin/activate.fish #This activates the virtual env, look on the terminal line Activate with: for correct command
+uv pip install -r pyproject.toml #installs needed dependencies
+uv pip install . #this installs the project in out env
+uv run oddwinewfixes #Runs the script
 
 ```
 

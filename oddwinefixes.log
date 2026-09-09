@@ -1,0 +1,8 @@
+2026-09-09 15:43:00,799 [INFO] [OddWineFixes.main]: Welcome to OddWineFixes v0.0.1 by TheOddPirate
+2026-09-09 15:43:00,799 [INFO] [OddWineFixes.main]: A PE Analyser and Wine/Proton missing dependency/font fixer
+2026-09-09 15:43:00,799 [INFO] [OddWineFixes.main]: License: LGPL-2.1-or-later
+2026-09-09 15:43:00,799 [INFO] [OddWineFixes.main]: [+] Gattering data about the prefix and wine/proton usage....
+2026-09-09 15:43:00,800 [INFO] [OddWineFixes.oddwinefixes.wine_analyser.WineEnvironment]: setting wine to:/home/theoddpirate/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/bin/wine
+2026-09-09 15:43:00,800 [INFO] [OddWineFixes.oddwinefixes.wine_analyser.WineEnvironment]: setting wineserver to:/home/theoddpirate/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/bin/wineserver
+2026-09-09 15:43:00,800 [INFO] [OddWineFixes.oddwinefixes.wine_analyser.WineEnvironment]: setting winecfg to:/home/theoddpirate/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/lib/wine/i386-windows/winecfg.exe
+2026-09-09 15:43:00,800 [INFO] [OddWineFixes.oddwinefixes.wine_analyser.WineEnvironment]: setting winetricks to:/home/theoddpirate/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/protonfixes/winetricks

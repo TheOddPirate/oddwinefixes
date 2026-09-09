@@ -11,7 +11,8 @@ from oddwinefixes.const import (
     KNOWN_OS_LIBS, 
     KNOWN_GAME_BUNDLED_LIBS, 
     KNOWN_GRAPHICS_LIBS, 
-    KNOWN_MEDIA_FRAMEWORKS
+    KNOWN_MEDIA_FRAMEWORKS,
+    DEBUG
 )
 from oddwinefixes.utils.logger import get_logger
 
@@ -57,7 +58,7 @@ class PEanalyser:
         #disabled because hardcoded personal path atm
        # self.detect_packer_name()
         
-        if printlogs:
+        if printlogs or DEBUG:
             self._print_debug_info()
 
     def _print_debug_info(self):

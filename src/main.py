@@ -20,7 +20,7 @@ def main():
     else:
         prefix_path = input("Enter WINEPREFIX path: ").strip()
     if DEBUG:
-        exe_path = "/mnt/Games/SteamLibrary/steamapps/common/Crimson Desert/bin64/CrimsonDesert.exe"
+        exe_path = "/home/theoddpirate/Games/Heroic/Installed/8BitDo_Firmware_Updater_Win/8BitDo Firmware Updater.exe"
     else:
         exe_path = input("Enter EXE path: ").strip()
 
