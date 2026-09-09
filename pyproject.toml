@@ -1,7 +1,7 @@
 [project]
 name = "oddwinefixes"
 version = "0.1.0"
-description = "Add your description here"
+description = "A PE Analyser and Wine/Proton missing dependency/font fixer"
 readme = "README.md"
 authors = [
     { name = "Odd Østlie", email = "oddostlie@gmail.com" }
