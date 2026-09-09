@@ -15,8 +15,7 @@ def _get_log_path() -> Path:
     is_installed = "site-packages" in package_dir.parts or "/usr/" in str(package_dir)
 
     if not is_installed:
-        project_root = package_dir.parent.parent.parent
-        return project_root / f"{NAME.lower()}.log"
+        return Path.cwd() / f"{NAME.lower()}.log"
 
     state_dir = Path.home() / ".local" / "state" / NAME.lower()
     state_dir.mkdir(parents=True, exist_ok=True)
