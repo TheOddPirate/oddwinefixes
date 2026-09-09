@@ -4,7 +4,7 @@ import re
 from oddwinefixes.const import WINDOWS_VERSION_MAP, DOTNET_RELEASE_MAP
 from .WineEnvironment import WineEnvironment
 from oddwinefixes.utils.logger import get_logger, setup_logging
-from const import DEBUG
+from oddwinefixes.const import DEBUG
 
 logger = get_logger(__name__)
 
